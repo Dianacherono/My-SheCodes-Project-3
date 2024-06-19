@@ -1,0 +1,133 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f7fe;
+}
+
+.weather-app {
+  background-color: white;
+  max-width: 600px;
+  margin: 45px auto;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+}
+
+header {
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid #f9f7fe;
+}
+
+.search-input {
+  background-color: #f9f7fe;
+  font-size: 16px;
+  width: 70%;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 20px;
+}
+
+.search-button {
+  background-color: #885df1;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 5px;
+  padding: 15px 30px;
+}
+
+main {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.weather-details {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: rgba(39, 33, 66, 0.4);
+}
+
+.weather-details strong {
+  color: #f65282;
+}
+
+.weather-temperature-details {
+  display: flex;
+  margin-left: 60px;
+}
+
+.icon {
+  font-size: 44px;
+  width: 88px;
+  height: 88px;
+}
+
+.weather-temperature {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.temparature-unit {
+  margin-top: 5px;
+  font-size: 28px;
+}
+
+.weather-forecast {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.forecast-date {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: rgba(39, 33, 66, 0.4);
+}
+
+.forecast-icon {
+  width: 88px;
+  height: 88px;
+  margin: 0 auto;
+  display: block;
+}
+
+.forecast-temperatures {
+  color: #f65282;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.forecast-temperature {
+  padding: 0 10px;
+}
+
+a {
+  color: #885df1;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  font-size: 14px;
+  padding: 30px 0 0 0;
+  color: rgba(0, 0, 0, 0.6);
+}
