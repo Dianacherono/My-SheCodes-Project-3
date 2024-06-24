@@ -43,7 +43,7 @@ function dateUpdate(date) {
 
 function currentCity(city) {
   let apiKey = "0e436o1d84aebftf2dab3947e4a43d3b";
-  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
   axios.get(apiUrl).then(refreshWeatherPage);
 }
 
